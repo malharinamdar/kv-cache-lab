@@ -1,0 +1,10 @@
+# Versions this was developed and tested with (Python 3.12, macOS 14, Apple M2).
+torch==2.7.0
+safetensors==0.6.2
+tokenizers==0.22.0
+huggingface_hub==0.34.4
+numpy==1.26.4
+pyarrow==19.0.1
+matplotlib==3.11.0
+# Only needed for tests/test_engine.py (logit parity with Hugging Face).
+transformers==4.56.0
