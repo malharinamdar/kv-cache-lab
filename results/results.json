@@ -1,0 +1,50 @@
+{
+  "speed": [
+    {
+      "new_tokens": 64,
+      "seconds_without_cache": 5.1488834579940885,
+      "seconds_with_cache": 1.258153458009474
+    },
+    {
+      "new_tokens": 128,
+      "seconds_without_cache": 11.18643137498293,
+      "seconds_with_cache": 2.5648057078942657
+    },
+    {
+      "new_tokens": 256,
+      "seconds_without_cache": 31.93198608304374,
+      "seconds_with_cache": 5.189012374961749
+    },
+    {
+      "new_tokens": 512,
+      "seconds_without_cache": 119.05837641598191,
+      "seconds_with_cache": 10.626141207991168
+    }
+  ],
+  "memory": {
+    "bytes_per_token_formula": 73728,
+    "bytes_per_token_measured": 73728.0,
+    "cache_mb_at_1024_tokens": 72.0,
+    "weights_mb": 474.7001953125
+  },
+  "sinks": {
+    "full_cache": 8.444722871374669,
+    "windows": [
+      {
+        "window": 64,
+        "perplexity_0_sinks": 1538.110656226585,
+        "perplexity_4_sinks": 14.389069341793473
+      },
+      {
+        "window": 128,
+        "perplexity_0_sinks": 615.6011358156486,
+        "perplexity_4_sinks": 11.968006016343606
+      },
+      {
+        "window": 256,
+        "perplexity_0_sinks": 152.67994797725055,
+        "perplexity_4_sinks": 10.109058432127416
+      }
+    ]
+  }
+}
